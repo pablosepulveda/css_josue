@@ -1,5 +1,5 @@
 body {
-	font-size: 16px;
+font-size: 16px;
 }
 
 header {
@@ -8,30 +8,35 @@ header {
 	text-align: center;
 }
 
-h1 {
-	margin: 0;
-	font-size: 1.5rem;
+button {
+background-color: #335BFF;
+padding: 10px;
+font-weight: 90;
+font-size: 18px;   
+border-radius: 6px;
+border: 2px solid #0016b0;
 }
 
+h1 {
+	font-size: 1.5rem; 
+}
 section {
 	margin: 0 auto;
 	width: 75%;
-	background-color: #ddd;
+	background-color: none;
 }
-
 section form {
 	padding: 2rem;
 }
-
 section form > div {
-	width: 49.5%;
-	margin:0;
-	padding: 0;
-	display: inline-block;
+width: 49.5%;
+margin: 0;
+padding: 0;
+display: inline-block;
 }
 
-section form > div:first-child {
-	width: 100%;
+section form > div:first-child{
+ width: 100%;
 }
 
 section form > div > label,
@@ -40,7 +45,65 @@ section form > div > input {
 }
 
 section form > div > input {
-width: 95%
+width: 90%;
 }
 
-/**/
+form  {
+    display: block;
+ width: 81.5%;
+ margin:-22px 30px 0p;
+ background-color: none;
+ padding: 0.02px 20px 6px;
+border-radius: 4px 4px 0px 0px;
+-moz-border-radius: 4px 4px 0px 0px;
+-webkit-border-radius: 4px 4px 0px 0px;
+border: 1px solid #e5e3e3;
+font-family: calibri;
+color: #3d3c3c;
+}
+form div:first-child {
+     display: block;
+ width: 81.5%;
+ margin:-33px -32.9px 0;
+ background-color: #f4eded;
+ padding: 0.02px 32px 6px;
+border-radius: 4px 4px 0px 0px;
+-moz-border-radius: 4px 4px 0px 0px;
+-webkit-border-radius: 4px 4px 0px 0px;
+border: 1px solid #e5e3e3;
+font-family: calibri;
+color: #3d3c3c;
+}
+
+button {
+    background-color: #1d9cf2;
+    font-family:corbel;
+    padding: 0.5rem 0.4rem;
+    color: white;
+    border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    border: 0px solid #000000
+}
+
+div button:nth-child(2) {
+    background-color: #1d9cf2;
+}
+input {
+    display: block;
+ border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+border: 1px solid #e5e3e3;
+padding: 7px 4px 3px 7px;
+width: 60px;
+
+}
+div {
+    display: flex;
+}
+
+div button {
+    background-color: #1d9cf2;
+    display: flex;
+    margin: 5px;
